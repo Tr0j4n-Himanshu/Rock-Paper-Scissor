@@ -1,0 +1,38 @@
+body{
+    background-color: cyan
+}
+
+button img{
+    border-radius: 50%;
+}
+
+button{
+    border:none;
+    background-color:transparent;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+table th{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+}
+table td{
+    background-color: bisque;
+    color: black;
+}
+
+#reset-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    
+}
+
+#btn{
+    height: 100px;
+    width: 100px;
+}

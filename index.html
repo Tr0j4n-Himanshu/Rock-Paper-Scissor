@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Rock Paper Scissor</h1>
+        </center>
+    </header>
+    <center>
+        <button title="Rock" onclick="
+        userMove = 'Rock';
+        console.log(userMove);
+        //Computer Move
+        generateComputerMove();
+    console.log(computerMove);
+    console.log(evaluateMoves());
+    console.log(game);
+        ">
+            <img src="/images/rock.png" alt="Rock" id="btn">
+        </button>
+        <button title="Paper" onclick="
+    userMove = 'Paper';
+    console.log(userMove);
+    //Computer Move
+    generateComputerMove();
+    console.log(computerMove);
+    console.log(evaluateMoves());
+    console.log(game);
+    ">
+            <img src="/images/paper.png" alt="Paper" id="btn">
+        </button>
+        <button title="Scissor" onclick="
+    userMove = 'Scissor';
+    console.log(userMove);
+    //Computer Move
+    generateComputerMove();
+    console.log(computerMove);
+    console.log(evaluateMoves());
+    console.log(game);
+    
+    ">
+            <img src="/images/scissors.png" alt="Scissor" id="btn">
+        </button>
+        <button title="Reset" onclick="">
+            <img src="/images/reset.jpg" alt="Reset" id="reset-btn">
+        </button>
+    </center>
+    <br>
+    <br>
+    <br>
+    <center>
+        <h1>Game Summary</h1>
+    </center>
+    <center>
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Loses</th>
+                <th>Ties</th>
+                <th>Games Played</th>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+        <br><br><br>
+        <center>
+            <h1>Game History</h1>
+        </center>
+        <table>
+            <tr>
+                <th># </th>
+                <th>User Move</th>
+                <th>Computer Move</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+
+            </tr>
+
+        </table>
+    </center>
+    <script  src="/script.js"></script>
+</body>
+
+</html>
