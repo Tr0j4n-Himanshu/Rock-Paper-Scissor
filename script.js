@@ -69,3 +69,10 @@ function evaluateMoves()
     return result;
 
 }
+
+function renderGameSummary(){
+    document.getElementById('wins').innerHTML=game.win;
+    document.getElementById('loses').innerHTML=game.lose;
+    document.getElementById('ties').innerHTML=game.tie;
+    document.getElementById('gamesplayed').innerHTML=game.win + game.lose + game.tie;
+}

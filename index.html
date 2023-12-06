@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
+    <link rel="icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="/style.css">
 
 </head>
@@ -24,6 +25,7 @@
     console.log(computerMove);
     console.log(evaluateMoves());
     console.log(game);
+    console.log(renderGameSummary());
         ">
             <img src="/images/rock.png" alt="Rock" id="btn">
         </button>
@@ -35,6 +37,7 @@
     console.log(computerMove);
     console.log(evaluateMoves());
     console.log(game);
+    console.log(renderGameSummary());
     ">
             <img src="/images/paper.png" alt="Paper" id="btn">
         </button>
@@ -46,6 +49,8 @@
     console.log(computerMove);
     console.log(evaluateMoves());
     console.log(game);
+    console.log(renderGameSummary());
+
     
     ">
             <img src="/images/scissors.png" alt="Scissor" id="btn">
@@ -69,7 +74,10 @@
                 <th>Games Played</th>
             </tr>
             <tr>
-
+                <td id="wins">0</td>
+                <td id="loses">0</td>
+                <td id="ties">0</td>
+                <td id="gamesplayed">0</td>
             </tr>
         </table>
         <br><br><br>
@@ -89,7 +97,7 @@
 
         </table>
     </center>
-    <script  src="/script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
